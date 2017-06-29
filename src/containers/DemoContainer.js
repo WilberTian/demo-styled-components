@@ -9,6 +9,7 @@ import StylingAnyComp from './components/StylingAnyComp';
 import ExtendingStyles from './components/ExtendingStyles';
 import AttachingAdditionalProps from './components/AttachingAdditionalProps';
 import Refs from './components/Refs';
+import HowToWork from './components/HowToWork';
 
 export default class DemoContainer extends PureComponent {
     render() {
@@ -34,6 +35,9 @@ export default class DemoContainer extends PureComponent {
                 </DemoWrapperComponent>
                 <DemoWrapperComponent header="refs">
                     <Refs />
+                </DemoWrapperComponent>
+                <DemoWrapperComponent header="how to work">
+                    <HowToWork />
                 </DemoWrapperComponent>
             </div>
         );
